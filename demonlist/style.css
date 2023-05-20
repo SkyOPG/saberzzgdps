@@ -1,5 +1,8 @@
 body {
-    background: url('../assets/bg.png')
+    background: url('../assets/bg.png') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 img {
@@ -83,9 +86,8 @@ div#paragraph {
       color: #f1f1f1;
     }
   
-  /* Style page content */
   .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 160px;
     padding: 0px 10px;
   }
   
