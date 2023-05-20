@@ -1,0 +1,61 @@
+body {
+    background: rgb(9,107,121);
+    background: linear-gradient(90deg, rgba(9,107,121,1) 35%, rgba(242,246,55,1) 52%, rgba(0,212,255,1) 100%);
+}
+
+@font-face {
+    font-family: "gd";
+    src: url("./fonts/PUSAB.otf");
+}
+
+div#menu {
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1#title {
+    font-family: 'gd';
+    color: darkorange;
+}
+
+div#paragraph {
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    color: white;
+    font-family: 'gd';
+    font-size: 25px;
+}
+
+div#links {
+    text-align: center;
+}
+
+button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: 'gd';
+  }
+button:hover {
+    background-color: black; /* Green */
+    border: none;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: 'gd';
+}
