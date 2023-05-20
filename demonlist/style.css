@@ -48,29 +48,40 @@ div#paragraph {
 }
 
 .sidenav {
-    height: 100%;
-    width: 250px; 
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+    height: 100vh;
+      width: 250px; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0;
+      left: 0;
+      overflow-x: hidden; 
+      padding-top: 20px;
+      opacity: 0.5;
+    }
   
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
+    .sidenav:hover {
+      height: 100vh;
+      width: 250px; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0;
+      left: 0;
+      overflow-x: hidden; 
+      padding-top: 20px;
+      opacity: 1;
+    }
+    
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #373638;
+      display: block;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
   
   /* Style page content */
   .main {
