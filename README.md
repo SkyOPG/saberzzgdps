@@ -29,6 +29,6 @@
 ![addqueue](https://cdn.discordapp.com/attachments/1127041630357176400/1145435388593328228/image.png)
 (adding the queue to playlist Mood)
 # Other Commands
-- Follow [this link]() for a full tutorial on the bot, representing all its commands and more!
+- Follow [this link](https://youtu.be/K8e_v562zEw?si=W_5fVkINvokYUw0z) for a full tutorial on the bot, representing all its commands and more!
 # More info
 - Musical uses Slash commands.
