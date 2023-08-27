@@ -11,24 +11,24 @@
 
 ## Playlist system
 - **you can make your own Playlists and play them wherever you want.**
-- **to create a playlist**: `playlist-create`.
+- **to create a playlist**: `\playlist-create`.
 
 ![playlist-1](https://cdn.discordapp.com/attachments/1127041630357176400/1129003035855683674/image.png)
 (creating a playlist called hello)
-- **to check for info about the playlist**: `playlist-info`
+- **to check for info about the playlist**: `\playlist-info`
 
 ![playlist-2](https://cdn.discordapp.com/attachments/1127041630357176400/1129003322272129054/image.png)
 (checking info about the playlist hello)
 - **to add music to a playlist**: 
-- `playlist-addcurrent` **for the song currently playing**
+- `\playlist-addcurrent` **for the song currently playing**
 
 ![addcurrent](https://cdn.discordapp.com/attachments/1127041630357176400/1129003979867701340/image.png)
 (adding current song to playlist hello)
-- `playlist-addqueue` **to add the whole queue**.
+- `\playlist-addqueue` **to add the whole queue**.
   
 ![addqueue](https://cdn.discordapp.com/attachments/1127041630357176400/1129005939320684564/image.png)
 (adding the queue to playlist hello)
 # Other Commands
 - Follow [this link]() for a full tutorial on the bot, representing all its commands and more!
 # More info
-- Musical uses prefixed commands, with a default prefix of `.`, and it also has a noprefix system for whitelisted users.
+- Musical uses Slash commands.
